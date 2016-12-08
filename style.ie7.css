@@ -1,0 +1,125 @@
+/* Created by Artisteer v4.1.0.59861 */
+
+.htl-header, #htl-header-bg, .htl-layout-cell, .htl-layout-wrapper, .htl-footer, .htl-nav, #htl-hmenu-bg, .htl-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.htl-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.htl-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#htl-header-bg 
+{
+   display: none;
+}
+
+.htl-content-layout, .htl-content-layout-row, .htl-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.htl-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+ul.htl-vmenu, ul.htl-vmenu ul, ul.htl-vmenu li{
+   zoom: 1;
+}
+
+ul.htl-vmenu ul 
+{
+   background-color: transparent;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.htl-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.htl-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.htl-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.htl-postmetadataheader{
+   zoom:1;
+}
+
+.htl-postheadericons span{
+   zoom: 1;
+}
+.htl-postcontent {
+   height: 1%;
+}
+
+.htl-postmetadatafooter{
+   zoom:1;
+}
+
+.htl-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.htl-sidebar1
+{
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='htl-sidebar1-bg' + (className.indexOf('htl-sidebar1-fix') == -1 ? '' : ' htl-sidebar1-bg-fix' ));
+}
+
+.htl-sidebar1-bg 
+{
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   left:  0;
+   bottom:0;
+   top:0;
+   width: 25%;
+   overflow:hidden;
+   display:block;
+   background-color: #26110D;
+}
+
+.htl-content 
+{
+   width: auto;
+   float:none;
+}
+
